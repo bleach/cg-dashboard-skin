@@ -20,11 +20,6 @@ renderToggleIcon.propTypes = { expanded: PropTypes.bool.isRequired };
 renderToggleIcon.defaultProps = { expanded: false };
 
 const disclaimer = {
-  flag: {
-    src: flagSrc,
-    alt:
-      'US flag signifying that this is a United States Federal Government website'
-  },
   text: 'An official website of the United States government',
   linkText: 'Here’s how you know',
   renderToggleIcon,
