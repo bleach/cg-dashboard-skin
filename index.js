@@ -9,35 +9,29 @@ import InfoLogs from '../../components/info_logs.jsx';
 
 export const config = {
   footer: {
-    author_note: <span>A United States government platform</span>,
-    code_note: <a href="https://cloud.gov/docs/ops/repos/">Open source and in the public domain</a>,
-    disclaimer_note: <a href="https://18f.gsa.gov/vulnerability-disclosure-policy/">Vulnerability disclosure policy</a>,
+    author_note: <span>A Government as a Platform product</span>,
+    code_note: <a href="https://github.com/alphagov?utf8=%E2%9C%93&q=paas-&type=&language=">Coding in the open</a>,
     links: [
       {
-        text: 'cloud.gov home',
-        url: 'https://cloud.gov'
+        text: 'GOV.UK PaaS home',
+        url: 'https://www.cloud.service.gov.uk'
       },
       {
         text: 'Get help for customer issues',
-        url: 'https://cloud.gov/docs/help/#support-for-people-who-use-cloud-gov'
-      },
-      {
-        text: 'Built and maintained by 18F',
-        url: 'https://18f.gsa.gov/'
+        url: 'https://www.cloud.service.gov.uk/support.html'
       }
     ]
   },
   docs: {
-    cli: 'https://cloud.gov/docs/getting-started/setup/',
+    cli: 'https://docs.cloud.service.gov.uk/#quick-setup-guide',
     concepts_roles: 'https://docs.cloudfoundry.org/concepts/roles.html',
-    concepts_spaces: 'https://cloud.gov/docs/getting-started/concepts/',
-    deploying_apps: 'https://cloud.gov/docs/getting-started/your-first-deploy/',
+    concepts_spaces: 'https://docs.cloud.service.gov.uk/#quick-setup-guide',
+    deploying_apps: 'https://docs.cloud.service.gov.uk/#quick-setup-guide',
     use: 'https://cloud.gov/overview/overview/using-cloudgov-paas/',
     invite_user: 'https://cloud.gov/docs/apps/managing-teammates/',
-    roles: 'https://cloud.gov/docs/apps/managing-teammates/#give-roles-to-a-teammate',
-    managed_services: 'https://cloud.gov/docs/apps/managed-services/',
-    status: 'https://cloudgov.statuspage.io/',
-    contact: 'https://cloud.gov/docs/help/'
+    roles: 'https://docs.cloud.service.gov.uk/#managing-users',
+    status: 'https://status.cloud.service.gov.uk/',
+    contact: 'https://www.cloud.service.gov.uk/support.html'
   },
   snippets: {
     logs: InfoLogs
